@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Quiz</title>
+    <link href="reset.css" rel="stylesheet" type="text/css"> 
+    <link rel="stylesheet" href="quiz.css" type="text/css">
+</head>
+<body> 
+    <div id="mainContainer"> <!-- holds everything-->
+        <div id="start">Click to start the quiz!</div> <!-- start button-->
+        <div id="quiz"> <!-- container of questions and choices-->
+            <div id="question"></div> <!-- container where questions will be for looped through-->
+            <div id="choices">  <!-- container for answers-->
+                <div class="choice" id="A" onclick="checkAnswer('A')"></div> <!-- choice A, on click run "check answer" function-->
+                <div class="choice" id="B" onclick="checkAnswer('B')"></div>
+                <div class="choice" id="C" onclick="checkAnswer('C')"></div>
+            </div>
+            <div id="timeClock"> <!-- timer that will count down-->
+                <div id="counter"></div>
+            </div>
+            <div id="currentScore"></div>
+        </div>
+        <div id="scoreContainer"></div>
+    </div>
+    <script src="quiz.js"></script>
+</body>
+</html>
+
+
+
