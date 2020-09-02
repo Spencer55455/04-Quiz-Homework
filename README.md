@@ -1,0 +1,1 @@
+This is a quiz with 3 questions to test your knowledge of Javascript
